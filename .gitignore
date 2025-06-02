@@ -1,0 +1,127 @@
+
+# -------------------
+# General
+# -------------------
+*.log
+*.sqlite3
+*.env
+.env.*
+.envrc
+.DS_Store
+*.py[cod]
+__pycache__/
+*.swp
+*.bak
+*.tmp
+*.pid
+
+# -------------------
+# Python / FastAPI
+# -------------------
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Pylint
+.pylint.d/
+
+# Other tools
+.tox/
+.eggs/
+*.egg
+*.egg-info/
+dist/
+build/
+site/
+
+# -------------------
+# Node.js / Next.js
+# -------------------
+# Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Next.js build
+.next/
+out/
+
+# Build output
+dist/
+build/
+
+# Static export
+out/
+
+# Vercel
+.vercel/
+
+# Local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: Ignore lock files if using multiple package managers
+# (choose only one if using Yarn or npm)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------
+# Docker
+# -------------------
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+
+# -------------------
+# IDEs & Editors
+# -------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# -------------------
+# MacOS/Linux/Windows
+# -------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# -------------------
+# Misc
+# -------------------
+*.tgz
+*.gz
+*.zip
+
